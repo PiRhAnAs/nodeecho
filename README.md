@@ -1,7 +1,7 @@
 Node echo
 ========
 
-This is a simple echo server I made using node and express. The UI is designed with less and built with grunt. 
+This is a simple echo server I made using node and express. The UI is designed with less and the app is built using grunt. 
 
 The purpose of this was to get familiar with these tools and technologies, and to make a basic web-app skeletton to serve as a building block for my future apps. So, if you do like web developpement and want to discover these cool technologies and learn a perfect workflow for developping quick web apps, then this is for you.
 
