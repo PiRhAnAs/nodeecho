@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Echo world!</title>
+    <link rel='stylesheet' href='/css/style.css' />
+  </head>
+  <body>
+  	<div id="container">
+      <div class="outer">
+        <div class="middle">
+          <h1>{{msg}}</h1>
+          <div class="desc">
+            <p>
+              Just change the string in the url, and it will magically be echoed back here.
+            </p>
+            <p>
+              This little echo web service was made using
+              <a href="http://nodejs.org/">nodeJS</a>,
+              <a href="http://expressjs.com/">express</a>,
+              <a href="http://twitter.github.io/hogan.js/">hogan</a>,
+              <a href="http://lesscss.org/">less</a> 
+              and 
+              <a href="http://gruntjs.com/">grunt</a>.
+              <br/>
+              Need to check out the code? Grab it from 
+              <a href="http://github.com/pirhanas/nodeecho">here</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="/js/script.js"></script>
+  </body>
+</html>

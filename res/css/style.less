@@ -1,0 +1,60 @@
+/*These imports will get emmbedded in this file
+ to avoid multiple requests for css files*/
+@import (less) 'normalize.css';
+@import (less) 'vcenter.css';	//This is used to center a div vertically in the page
+@import (less) url(http://fonts.googleapis.com/css?family=PT+Serif);
+
+
+/*Note the use of less variables*/
+@font-size: 0.6em;
+@bg-color: #E6E4E4;
+@font-color: #52B3D9;
+
+html{
+	font-size: @font-size;
+	color: black;
+	background-color: darken(@bg-color, 0%);
+}
+
+html, body, h1, h2, h3, h4, h5, h6, div, p, a{
+	margin: 0;
+	text-decoration: none;
+
+}
+
+.outer {
+  	font-family:  'PT Serif', serif;
+  	font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    h1{
+		font-size: 11.089rem;
+		text-align: center;
+		font-weight: 300;
+		margin-bottom: -1 * 1rem;
+		color: @font-color;
+    }
+}
+
+p{
+	font-size: 1.618rem;
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+a{
+	color: darken(@font-color, 10%);
+	&:hover{
+		text-decoration: underline;
+	}
+}
+
+div.desc{
+	p{
+		text-align: center;
+		/*color: #F0F0F0;*/
+		color: black;
+		font-size: 2rem;
+		line-height: 1.5em;
+	}
+}
