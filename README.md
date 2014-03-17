@@ -8,7 +8,7 @@ The purpose of this was to get familiar with these tools and technologies, and t
 How to use
 ==========
 
-If you don't have node installed in your system, then head over http://nodejs.org/ and download it.
+If you don't have node installed in your system, then head over http://nodejs.org and download it.
 After you've installed node, you need to install Grunt using this command
 
     npm install -g grunt
