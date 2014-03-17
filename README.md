@@ -25,3 +25,5 @@ Then to test the app, simply run the following command
     grunt start
     
 This will start the node server at this address: http://localhost:3000/ .It will also start the Grunt 'watch' task, which will monitor any changes in the css or html files and reflect them automatically in your webbrowser without the need to reload the page. Cool right?
+
+I tried to keep the code simple and boilerplate-free. Happy fiddling with the source code.
